@@ -1,0 +1,9 @@
+<link phx-track-static rel="stylesheet" href={~p"/assets/home.css"} />
+<.flash_group flash={@flash} />
+<div class="min-w-screen min-h-screen bg-gray-50 flex items-center justify-center bg-gray-100">
+  <code>
+    sock = new WebSocket("ws://localhost:4000/websocket?name=charlie")
+    <br />
+    sock.addEventListener("message", console.log)
+  </code>
+</div>
